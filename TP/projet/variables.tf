@@ -12,14 +12,8 @@ variable "vm_size" {
   default     = "Standard_B1s"
 }
 
-variable "admin_username" {
+variable "username" {
   description = "The admin username for the VM."
   type        = string
   default     = "azureuser"
 }
-
-variable "api_repo_url" {
-  description = "The URL of the API repository."
-  type        = string
-}
-
